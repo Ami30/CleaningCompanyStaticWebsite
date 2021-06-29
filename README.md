@@ -8,4 +8,4 @@ Below mentioned SASS features are implemented :
 5. Functions
 6. Math operations
 
-The styling of the page is divided based on UI featyres,common elements and themes.
+The styling of the page is divided based on UI features,common elements and themes.
