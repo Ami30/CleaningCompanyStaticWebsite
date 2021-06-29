@@ -1,4 +1,4 @@
-This asssignment contains the implementation layouts(flex and Grid), nested selectors, positioning(sticky,absolute) and SASS (CSS preprocessor)
+This assignment contains the implementation layouts(flex and Grid), nested selectors, positioning(sticky,absolute) and SASS (CSS preprocessor)
 
 Below mentioned SASS features are implemented :
 1. Variables
