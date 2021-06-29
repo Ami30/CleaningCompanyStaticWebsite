@@ -1,0 +1,66 @@
+
+/*This .scss file contain classes for positioning*/
+/*Below class is used for making nav bar sticky*/
+.pos{
+    position: sticky;
+    top:0;
+    background:$block-bkg;
+    z-index: 1;
+}
+
+ .top-left {
+        position: absolute;
+        top: 200px;
+        left: 180px;   
+        color:$block-bkg;
+       
+      }
+
+.onimage{
+        font-size: 50px;
+        font-weight: 80px;
+    }
+/*varibales used*/
+.form-on-image {
+        position: absolute;
+        top: 4600px;
+        left: 920px;   
+        color: $block-bkg;
+        background-color: $block-bkg;
+        padding:25px;
+      }
+      .opacity{
+        opacity: 0.5;
+    }    
+      .formfield{
+        text-decoration: none;
+        border:none;
+    }
+  
+    .formfield input{
+  
+      padding:10px;
+      margin:10px;
+      width:250px;
+      background-color: rgb(224, 221, 221);
+      border: none;
+  
+    }
+  
+    .formfield textarea{
+      padding:10px;
+      margin:10px;
+      width:250px;
+      background-color: rgb(224, 221, 221);
+      border: none;
+  
+    }
+  /*Varibales used*/
+    .formfield button{
+        padding:10px 20px 10px 20px;
+        background-color: $bkg-color;
+        width:300px;
+        border: none;
+        color: $block-bkg;
+        font-weight: 20;
+    }

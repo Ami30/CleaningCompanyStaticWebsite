@@ -1,0 +1,12 @@
+/*This .scss file contains a for loop through which multiple classes are generated automatically for padding.*/
+
+@for $val from 1 through 10{
+    $val:$val*10px;
+    .pad-#{$val}{
+        padding:$val;
+    }
+}
+ /*function implemented*/
+@function column-width($col, $total) {  
+    @return percentage($col/$total);  
+   }

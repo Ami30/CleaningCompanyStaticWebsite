@@ -1,0 +1,37 @@
+/*Below classes are defined for nav bar*/
+.nav1{
+    display:flex;
+    padding:10px;
+    width: 100%;
+}
+
+.logo{
+    color: $bkg-color;
+    font-size: 30px;
+    width: 40%;
+    text-align: center;
+}
+
+
+.navbar{
+    width:60%;
+    text-align: center;
+   
+}
+.navtag{
+    padding:6px; 
+    text-decoration: none; 
+    font-size: 18px;
+    color: rgb(112, 108, 108); 
+    font-weight:25px;
+
+}
+
+/* This class is defined for button on navbar*/
+/*Mixin implemented*/
+.btnrequest{
+    @include btncommon;
+    @include border-radius(20px);
+    font-weight: 30px;
+    font-size:15px;
+}

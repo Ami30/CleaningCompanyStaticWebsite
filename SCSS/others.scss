@@ -1,0 +1,72 @@
+/*Mixin implemented*/
+.btntouch{
+    @include border-radius(10px);
+    @include btncommon2;  
+  }
+
+  .imagewidth{
+      width:100%;
+  }
+
+  h3{
+    color:$bkg-color;  
+}
+  h1{
+    color:$bkg-color; 
+    text-align: center;
+}
+
+.linecolour{
+    color:rgb(128, 126, 126);
+}
+
+figcaption{
+    font-weight: bold;
+    color: $bkg-color;
+}
+/* Below 2 classes are used for advertisement section*/
+.add{
+    padding:40px 60px 40px 60px;
+    background-color: $bkg-color;
+    text-align: center;
+    color: $block-bkg;
+    font-weight:500;
+    font-size: 20px;
+}
+/*Mixin implemented*/
+.btnmoreservices2{
+    @include border-radius(30px);
+    @include btncommon2;
+    font-weight: bold;
+    padding:15px 20px 15px 20px;
+  }
+  
+  hr{
+    width:35%;
+}
+a{
+    text-decoration: none; 
+}
+.centeralign{
+    text-align: center;
+}
+.teamsection > div{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Below classes are created for footer*/
+.footerclass{
+    padding:30px;
+    text-decoration: none;
+    margin-left: 180px;
+
+  }
+  .logoclean{
+    color: $bkg-color;
+     font-size:25px;
+  }
+  .ul_list{
+    list-style-type:none;
+  }
+

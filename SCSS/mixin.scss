@@ -1,0 +1,25 @@
+/* Mixin for border radius*/
+@mixin border-radius($r){
+    border-radius: $r;
+    -webkit-border-radius:$r;
+    -moz-border-radius:$r;
+}
+/*Mixin for common button properties */
+@mixin btncommon{
+    background-color: $bkg-color;
+    color: $block-bkg;
+    border: none;
+}
+/*Mixin for common button properties */
+@mixin btncommon2{
+    background-color: $block-bkg;
+    color: $bkg-color;
+    border:none;
+}
+/*Mixin for shadow*/
+@mixin shadow($s)
+{
+    box-shadow: $s;
+    -moz-window-shadow:$s;
+}
+

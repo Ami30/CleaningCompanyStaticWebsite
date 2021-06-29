@@ -1,0 +1,92 @@
+/*Below are the pseudo classes declared for giving the buttons, navbar and images hovering effects*/
+
+.navtag:hover{
+    cursor:pointer;
+    background-color: $bkg-color;
+    border-radius: 15px;
+}
+
+.btntouch:hover,.btnmoreservices:hover,.btnmoreservices2:hover,.btnbuynow:hover,.btntestimonial:hover{
+    cursor:pointer;
+    transform: scale(1.5);
+    border-radius: 15px;
+}
+
+.block1:hover{
+   border:1px solid $bkg-color;
+}
+
+.top-left::selection,.onimage::selection,.linecolour::selection{
+    color: rgb(245, 241, 241);
+    background: $linecol;
+  }
+
+ /* .sliderimg:hover{
+      opacity: 0.25;
+  }*/
+
+.middle1 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 4400px;
+    left: 250px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .middle2 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 4400px;
+    left: 550px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .middle3 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 4400px;
+    left: 900px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .middle4 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 4400px;
+    left: 1250px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .sliderimg:hover .image {
+    opacity: 0.3;
+  }
+  
+  .sliderimg:hover .middle1 {
+    opacity: 1;
+  }
+  .sliderimg:hover .middle2 {
+    opacity: 1;
+  }
+  .sliderimg:hover .middle3 {
+    opacity: 1;
+  }
+  .sliderimg:hover .middle4 {
+    opacity: 1;
+  }
+
+  .text {
+    background-color: $bkg-color;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+

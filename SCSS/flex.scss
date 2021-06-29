@@ -1,0 +1,133 @@
+/* Below classes are defined for implementation of header */
+.flex{
+  display:flex;
+}
+.btnalignment{
+  text-align: center;
+}
+/* inheritance implemented*/
+.flex-top{
+    @extend .flex;
+    border-style:solid;
+    border-width: 1px;
+    border-color:rgba(218, 213, 213,0.5);
+    padding: 5px;
+    color:rgb(148, 144, 144);
+}
+.first-line{
+  @extend .btnalignment;
+  width:column-width(4,10);
+}
+.first-line2{
+  @extend .btnalignment;
+  width:column-width(6,10);
+}
+.colorclass{
+    color:$bkg-color;
+}
+/* Below classes are defined for implementation of Why choose us section*/
+.chooseuscolumns{
+    @extend .flex;
+    @extend .btnalignment;
+    justify-content:center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.cleanservicecolumn{
+  @extend .flex;
+  @extend .btnalignment;
+    padding: 5px;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right:200px;
+}
+/* Mixins implemented*/
+.btnmoreservices{
+    @include btncommon;
+    @include border-radius(30px);
+    font-weight: bold;
+    padding:15px;
+  }
+
+  
+
+  .cleaningservicesection{
+    background-color: $section-bkg;
+  }
+
+
+  .pricingsection{
+    @extend .cleaningservicesection;
+    padding:40px 80px 40px 80px ;
+  }
+
+  .pricingsection h2{
+    color:$bkg-color;
+    text-align: center;
+  }
+  .align{
+  @extend .flex;
+  padding:40px 140px 40px 140px ;
+}
+.btnpricingdiv{
+    padding:10px;
+    margin: none;
+    background-color:$bkg-color;
+}
+
+  .block1{
+    @include shadow(2px 1px 1px 2px $bkg-color);
+    background-color:$block-bkg ;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .liststyle{
+    list-style-type:none;
+    text-align: center;
+    padding-right: 20px;
+    color:rgb(134, 131, 131);
+  }
+
+  .coststyle{
+    font-size: 26px;
+    font-weight: 35px;
+    color: rgb(107, 105, 105);;
+}
+
+  /* mixins implemented*/
+  .btnbuynow{
+      @include btncommon;
+      font-weight: 25px;
+      font-size: 15px;
+  }
+  /* These classes are used for latest blog section*/
+.Blogsection{
+    padding:30px
+}
+.Blogsection h2{
+    color:$bkg-color;
+    text-align: center;
+}
+.Blogsection>div{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.greycircle{
+    padding-left:100px;
+}
+
+.author{
+    color: rgb(148, 144, 144);
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btntestimonial{
+   @include btncommon;
+    padding:5px;
+}
+
+
